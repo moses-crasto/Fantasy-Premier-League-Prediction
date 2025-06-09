@@ -1,5 +1,43 @@
-# Fantasy-Premier-League-Prediction
+# ⚽ Fantasy Premier League Prediction
 
-This project explores the use of machine learning models to predict player points in Fantasy Premier League (FPL) for each gameweek. We applied various feature engineering techniques and data pre-processing steps to build predictive models. The performance of multiple algorithms, including Linear Regression, Random Forest, XGBoost, and Neural Networks, was compared.
+This project explores the use of **machine learning** to predict player points in the **Fantasy Premier League (FPL)** for each gameweek. It applies advanced **feature engineering**, **data preprocessing**, and a variety of predictive modeling techniques to build models that outperform traditional baselines in terms of prediction accuracy.
 
-The proposed models achieved a **Root Mean Squared Error (RMSE)** of approximately **1.97** and a **Mean Absolute Error (MAE)** of around **1.03**, outperforming several existing approaches in the literature. These results indicate that machine learning has significant potential for improving decision-making in FPL strategies.
+---
+
+## 📊 Project Overview
+
+The primary objective of this project is to help Fantasy Premier League managers make **data-driven decisions** by predicting the points players are likely to earn in upcoming gameweeks. We compare the effectiveness of multiple machine learning algorithms on a cleaned and feature-rich dataset derived from FPL statistics.
+
+---
+
+## 🧠 Key Features
+
+- 🔍 **Recent form analysis**: Integrated recent performance data to improve prediction accuracy.
+- ⚙️ **Feature engineering**: Created new features from raw data and selected the most predictive ones using **Random Forest** and **XGBoost** feature importance.
+- 🧪 **Model comparison**: Evaluated multiple ML models including:
+  - Linear Regression
+  - Random Forest Regressor
+  - XGBoost Regressor
+  - Feedforward Neural Networks
+
+---
+
+## 📈 Results
+
+The models achieved:
+- **Root Mean Squared Error (RMSE):** ~1.97
+- **Mean Absolute Error (MAE):** ~1.03
+
+These metrics demonstrate a **notable improvement** over traditional and previously published approaches, showcasing the potential of ML in enhancing Fantasy Premier League strategy.
+
+---
+
+## 🧰 Technologies Used
+
+- Python 3.8+
+- NumPy, Pandas
+- Scikit-learn
+- XGBoost
+- TensorFlow / Keras
+- Matplotlib, Seaborn
+- Jupyter Notebooks
